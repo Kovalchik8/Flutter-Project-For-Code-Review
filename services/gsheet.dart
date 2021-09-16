@@ -7,8 +7,7 @@ class GSheetsService {
 // google auth credentials
   static final credentials = '';
 
-  static final String tasksSpreadsheetId =
-      '1JWGsiC5D_TB6aWhToLYRW3X4dWar023plHZPHJXFPZM';
+  static final String tasksSpreadsheetId = '';
 
   // send report to the google sheets
   static Future<dynamic> sendReport(task, imageUrls) async {
